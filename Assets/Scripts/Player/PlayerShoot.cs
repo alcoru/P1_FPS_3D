@@ -37,13 +37,7 @@ public class PlayerShoot : MonoBehaviour
         weaponAnimator = GetComponentInChildren<Animator>();
 
     }
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(mReloadKey) && bulletsInMag < weaponStats.maxBulletsPerRound && bulletsLeft > 0)
@@ -107,7 +101,6 @@ public class PlayerShoot : MonoBehaviour
 
     private void ExpellBulets()
     {
-        //GameObject clone = Instantiate(weaponStats.gunShells, gunExpeller.position, Quaternion.identity);
         GameObject clone = bulletsPool.GetNextElement();
         clone.transform.position = gunExpeller.position;
         clone.transform.rotation = Quaternion.identity;
@@ -119,7 +112,6 @@ public class PlayerShoot : MonoBehaviour
     private void ShootParticles()
     {
         GameObject clone = Instantiate(weaponStats.gunImpactParticles, gunPositioner.position, Quaternion.identity);
-        //clone.transform.parent = gunPositioner.transform;
         Destroy(clone, clone.GetComponent<ParticleSystem>().main.duration);
 
     }
@@ -140,7 +132,6 @@ public class PlayerShoot : MonoBehaviour
 
     private void Recharge()
     {
-        //shooting = false;
         weaponAnimator.SetBool("shooting", false);
 
         recharging = true;

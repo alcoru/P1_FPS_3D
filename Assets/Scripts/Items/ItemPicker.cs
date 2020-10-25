@@ -12,10 +12,6 @@ public class ItemPicker : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        /*if (other.gameObject.GetComponent<Item>() != null)
-        {
-            other.gameObject.GetComponent<Item>().Pick(fpsController);
-        }*/
         if (other.gameObject.TryGetComponent<Item>(out Item item))
         {
             item.Pick(fpsController);

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class pruea : MonoBehaviour
+public class EndReloadScript : MonoBehaviour
 {
     [SerializeField] private GameObject player;
     

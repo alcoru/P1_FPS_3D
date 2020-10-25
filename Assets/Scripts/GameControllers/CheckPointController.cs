@@ -5,7 +5,6 @@ using UnityEngine;
 public class CheckPointController : MonoBehaviour
 {
     public static CheckPointController instance;
-    private List<CheckPoint> checkPoints;
     private CheckPoint actual_checkPoint;
 
 
@@ -15,8 +14,6 @@ public class CheckPointController : MonoBehaviour
         {
             instance = this;
         }
-        
-        //GetAllCheckPoints();
     }
 
     public static CheckPointController GetInstance()
@@ -31,7 +28,6 @@ public class CheckPointController : MonoBehaviour
 
     public void changeCheckPoint(CheckPoint checkPoint)
     {
-        //if(checkPoints.Contains(checkPoint))
         if(actual_checkPoint != null)
         {
             if(!actual_checkPoint.Equals(checkPoint))
@@ -44,13 +40,4 @@ public class CheckPointController : MonoBehaviour
             actual_checkPoint = checkPoint;
         }
     }
-
-    /*private void GetAllCheckPoints()
-    {
-        foreach(CheckPoint checkPoint in transform)
-        {
-            checkPoints.Add(checkPoint);
-        }
-
-    }*/
 }

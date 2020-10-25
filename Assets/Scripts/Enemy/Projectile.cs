@@ -12,7 +12,6 @@ public class Projectile : MonoBehaviour
     private GameObject explosion;
     private Rigidbody rb;
     
-    // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -20,8 +19,6 @@ public class Projectile : MonoBehaviour
         AudioManager.PlaySound("enemy_weapon_shoot");
         rb.velocity = speed * transform.forward;
     }
-
-    // Update is called once per frame
 
     private void OnTriggerEnter(Collider other)
     {

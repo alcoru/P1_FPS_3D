@@ -28,7 +28,6 @@ public class ShootingGallery : MonoBehaviour
         if(!completed)
         {
             completed = true;
-            //OpenDoor();
             textInfo.text = textInfo.text + "\n\n <color=green>Task completed</color>";
         }
 
@@ -94,7 +93,6 @@ public class ShootingGallery : MonoBehaviour
 
     private void UpdateTextScore(int points)
     {
-        Debug.Log(points);
         textScore.text = "Score: " + points + "/" + minScore;
     }
 
@@ -133,24 +131,22 @@ public class ShootingGallery : MonoBehaviour
     private void GenerateTargetsList()
     {
         foreach(Transform child in transform)
+        {
+            if(child.childCount > 0)
+            {
+                foreach(Transform child_ in child)
                 {
-                    if(child.childCount > 0)
+                    if(child_.GetComponent<target_script>())
                     {
-                        foreach(Transform child_ in child)
-                        {
-                            if(child_.GetComponent<target_script>())
-                            {
-                                Debug.Log(child_);
-                                targets.Add(child_);
-                            }
-                        }
-
-                    }
-                    if(child.GetComponent<target_script>())
-                    {
-                        Debug.Log(child);
-                        targets.Add(child);
+                        targets.Add(child_);
                     }
                 }
+
+            }
+            if(child.GetComponent<target_script>())
+            {
+                targets.Add(child);
+            }
+        }
     }
 }
