@@ -16,7 +16,7 @@ public class ShootingGallery : MonoBehaviour
 
 
     private int last_points = 0;
-    //[SerializeField] GameObject door;
+    [SerializeField] GameObject door;
     private int maxTime = 30;   
     private int time;
 
@@ -28,7 +28,7 @@ public class ShootingGallery : MonoBehaviour
         if(!completed)
         {
             completed = true;
-            OpenDoor();
+            //OpenDoor();
             textInfo.text = textInfo.text + "\n\n <color=green>Task completed</color>";
         }
 
@@ -100,9 +100,7 @@ public class ShootingGallery : MonoBehaviour
 
     private void OpenDoor()
     {
-        //Open da Door
-        //door.GetComponent<Animator>().SetBool("open", true);
-        Debug.Log("Open door");
+        door.GetComponent<FirstDoor>().OpenFirstDoor();        
     }
 
     private void TimeToComplete()
