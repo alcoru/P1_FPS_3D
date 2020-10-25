@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{d1357938-878e-e7b5-6ef5-067dfbb5c2ed}</ProjectGuid>
+    <ProjectGuid>{5be92004-0785-147b-0748-46d7b091a1a2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -51,6 +51,7 @@
      <Compile Include="Assets\FreeAssets\DreamForestTree\PostProcessing\Runtime\PostProcessingBehaviour.cs" />
      <Compile Include="Assets\FreeAssets\DreamForestTree\PostProcessing\Runtime\Models\DitheringModel.cs" />
      <Compile Include="Assets\FreeAssets\DreamForestTree\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
+     <Compile Include="Assets\Scripts\GameOverCollider.cs" />
      <Compile Include="Assets\FreeAssets\DreamForestTree\PostProcessing\Runtime\PostProcessingModel.cs" />
      <Compile Include="Assets\CheckPointController.cs" />
      <Compile Include="Assets\FreeAssets\EffectExamples\Shared\Scripts\ParticleCollision.cs" />
@@ -89,7 +90,9 @@
      <Compile Include="Assets\FreeAssets\DreamForestTree\PostProcessing\Runtime\PostProcessingComponent.cs" />
      <Compile Include="Assets\FreeAssets\DreamForestTree\PostProcessing\Runtime\Components\EyeAdaptationComponent.cs" />
      <Compile Include="Assets\FreeAssets\DreamForestTree\PostProcessing\Runtime\Utils\GraphicsUtils.cs" />
+     <Compile Include="Assets\Scripts\Items\KeyItem.cs" />
      <Compile Include="Assets\FreeAssets\DreamForestTree\PostProcessing\Runtime\Components\BloomComponent.cs" />
+     <Compile Include="Assets\Scripts\AutomaticDoor.cs" />
      <Compile Include="Assets\FreeAssets\DreamForestTree\PostProcessing\Runtime\Models\FogModel.cs" />
      <Compile Include="Assets\Scripts\Items\AmmoItem.cs" />
      <Compile Include="Assets\Recharge.cs" />
@@ -104,6 +107,7 @@
      <Compile Include="Assets\FreeAssets\DreamForestTree\PostProcessing\Runtime\PostProcessingProfile.cs" />
      <Compile Include="Assets\FreeAssets\_Barking_Dog\Common Scripts\MouseLook.cs" />
      <Compile Include="Assets\FreeAssets\DreamForestTree\PostProcessing\Runtime\Models\DepthOfFieldModel.cs" />
+     <Compile Include="Assets\Scripts\KeyDoor.cs" />
      <Compile Include="Assets\FreeAssets\DreamForestTree\PostProcessing\Runtime\Components\FxaaComponent.cs" />
      <Compile Include="Assets\FreeAssets\DreamForestTree\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
      <Compile Include="Assets\droneController.cs" />
@@ -113,12 +117,14 @@
      <Compile Include="Assets\FreeAssets\DreamForestTree\PostProcessing\Runtime\Models\ColorGradingModel.cs" />
      <Compile Include="Assets\pruea.cs" />
      <Compile Include="Assets\FreeAssets\DreamForestTree\PostProcessing\Runtime\Attributes\TrackballGroupAttribute.cs" />
+     <Compile Include="Assets\Scripts\PlayerKey.cs" />
      <Compile Include="Assets\FreeAssets\DreamForestTree\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
      <Compile Include="Assets\target_controller.cs" />
      <Compile Include="Assets\FreeAssets\DreamForestTree\PostProcessing\Runtime\Components\UserLutComponent.cs" />
      <Compile Include="Assets\Drone_eye_damage.cs" />
      <Compile Include="Assets\FreeAssets\DreamForestTree\PostProcessing\Runtime\Models\AmbientOcclusionModel.cs" />
      <Compile Include="Assets\Drone_Health.cs" />
+     <Compile Include="Assets\GameOverScript.cs" />
      <None Include="Assets\Samples\Terrain Tools\0.1.0-preview\Terrain Assets\ThirdPartyNotices.txt" />
      <None Include="Assets\FreeAssets\DreamForestTree\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
      <None Include="Assets\FreeAssets\DreamForestTree\PostProcessing\Resources\Shaders\GrainGen.shader" />
@@ -700,37 +706,37 @@
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>E:/Tecnocampus/4o_año/Trimestre_1/desenvolupament_jocs_3D/FPS_2/P1_FPS/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>E:/Tecnocampus/clone/P1_FPS_3D/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>E:/Tecnocampus/4o_año/Trimestre_1/desenvolupament_jocs_3D/FPS_2/P1_FPS/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>E:/Tecnocampus/clone/P1_FPS_3D/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>E:/Tecnocampus/4o_año/Trimestre_1/desenvolupament_jocs_3D/FPS_2/P1_FPS/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>E:/Tecnocampus/clone/P1_FPS_3D/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>E:/Tecnocampus/4o_año/Trimestre_1/desenvolupament_jocs_3D/FPS_2/P1_FPS/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+        <HintPath>E:/Tecnocampus/clone/P1_FPS_3D/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>E:/Tecnocampus/4o_año/Trimestre_1/desenvolupament_jocs_3D/FPS_2/P1_FPS/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+        <HintPath>E:/Tecnocampus/clone/P1_FPS_3D/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
-        <HintPath>E:/Tecnocampus/4o_año/Trimestre_1/desenvolupament_jocs_3D/FPS_2/P1_FPS/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+        <HintPath>E:/Tecnocampus/clone/P1_FPS_3D/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>E:/Tecnocampus/4o_año/Trimestre_1/desenvolupament_jocs_3D/FPS_2/P1_FPS/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+        <HintPath>E:/Tecnocampus/clone/P1_FPS_3D/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
-        <HintPath>E:/Tecnocampus/4o_año/Trimestre_1/desenvolupament_jocs_3D/FPS_2/P1_FPS/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+        <HintPath>E:/Tecnocampus/clone/P1_FPS_3D/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>E:/Tecnocampus/4o_año/Trimestre_1/desenvolupament_jocs_3D/FPS_2/P1_FPS/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+        <HintPath>E:/Tecnocampus/clone/P1_FPS_3D/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>E:/Tecnocampus/4o_año/Trimestre_1/desenvolupament_jocs_3D/FPS_2/P1_FPS/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+        <HintPath>E:/Tecnocampus/clone/P1_FPS_3D/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>E:/Tecnocampus/4o_año/Trimestre_1/desenvolupament_jocs_3D/FPS_2/P1_FPS/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+        <HintPath>E:/Tecnocampus/clone/P1_FPS_3D/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

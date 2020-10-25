@@ -9,7 +9,7 @@ public class CheckPointController : MonoBehaviour
     private CheckPoint actual_checkPoint;
 
 
-    void Start()
+    void Awake()
     {
         if(instance == null)
         {
@@ -38,6 +38,10 @@ public class CheckPointController : MonoBehaviour
             {
                 actual_checkPoint = checkPoint;
             }
+        }
+        else
+        {
+            actual_checkPoint = checkPoint;
         }
     }
 

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{51df3833-d238-beae-a319-7d85ca8c3d45}</ProjectGuid>
+    <ProjectGuid>{1dd325b4-bf43-3dd6-eb5c-54efb0ab3194}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -272,10 +272,10 @@
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="PackageManagerAssembly">
-        <HintPath>E:/Tecnocampus/4o_año/Trimestre_1/desenvolupament_jocs_3D/FPS_2/P1_FPS/Assets/FreeAssets/EffectExamples/Editor/PackageManagerAssembly/PackageManagerAssembly.dll</HintPath>
+        <HintPath>E:/Tecnocampus/clone/P1_FPS_3D/Assets/FreeAssets/EffectExamples/Editor/PackageManagerAssembly/PackageManagerAssembly.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-        <HintPath>E:/Tecnocampus/4o_año/Trimestre_1/desenvolupament_jocs_3D/FPS_2/P1_FPS/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+        <HintPath>E:/Tecnocampus/clone/P1_FPS_3D/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -623,48 +623,48 @@
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-        <HintPath>E:/Tecnocampus/4o_año/Trimestre_1/desenvolupament_jocs_3D/FPS_2/P1_FPS/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+        <HintPath>E:/Tecnocampus/clone/P1_FPS_3D/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-        <HintPath>E:/Tecnocampus/4o_año/Trimestre_1/desenvolupament_jocs_3D/FPS_2/P1_FPS/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+        <HintPath>E:/Tecnocampus/clone/P1_FPS_3D/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>E:/Tecnocampus/4o_año/Trimestre_1/desenvolupament_jocs_3D/FPS_2/P1_FPS/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>E:/Tecnocampus/clone/P1_FPS_3D/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>E:/Tecnocampus/4o_año/Trimestre_1/desenvolupament_jocs_3D/FPS_2/P1_FPS/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>E:/Tecnocampus/clone/P1_FPS_3D/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>E:/Tecnocampus/4o_año/Trimestre_1/desenvolupament_jocs_3D/FPS_2/P1_FPS/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>E:/Tecnocampus/clone/P1_FPS_3D/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>E:/Tecnocampus/4o_año/Trimestre_1/desenvolupament_jocs_3D/FPS_2/P1_FPS/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+        <HintPath>E:/Tecnocampus/clone/P1_FPS_3D/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>E:/Tecnocampus/4o_año/Trimestre_1/desenvolupament_jocs_3D/FPS_2/P1_FPS/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+        <HintPath>E:/Tecnocampus/clone/P1_FPS_3D/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
-        <HintPath>E:/Tecnocampus/4o_año/Trimestre_1/desenvolupament_jocs_3D/FPS_2/P1_FPS/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+        <HintPath>E:/Tecnocampus/clone/P1_FPS_3D/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>E:/Tecnocampus/4o_año/Trimestre_1/desenvolupament_jocs_3D/FPS_2/P1_FPS/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+        <HintPath>E:/Tecnocampus/clone/P1_FPS_3D/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
-        <HintPath>E:/Tecnocampus/4o_año/Trimestre_1/desenvolupament_jocs_3D/FPS_2/P1_FPS/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+        <HintPath>E:/Tecnocampus/clone/P1_FPS_3D/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>E:/Tecnocampus/4o_año/Trimestre_1/desenvolupament_jocs_3D/FPS_2/P1_FPS/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+        <HintPath>E:/Tecnocampus/clone/P1_FPS_3D/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>E:/Tecnocampus/4o_año/Trimestre_1/desenvolupament_jocs_3D/FPS_2/P1_FPS/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+        <HintPath>E:/Tecnocampus/clone/P1_FPS_3D/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>E:/Tecnocampus/4o_año/Trimestre_1/desenvolupament_jocs_3D/FPS_2/P1_FPS/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+        <HintPath>E:/Tecnocampus/clone/P1_FPS_3D/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{d1357938-878e-e7b5-6ef5-067dfbb5c2ed}</Project>
+      <Project>{5be92004-0785-147b-0748-46d7b091a1a2}</Project>
       <Name>Assembly-CSharp</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
