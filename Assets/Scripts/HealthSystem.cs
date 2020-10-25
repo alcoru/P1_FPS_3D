@@ -20,6 +20,8 @@ public class HealthSystem : MonoBehaviour, DamageTaker
     [SerializeField] Text healthText;
     [SerializeField] Text shieldText;
 
+    private GameOverScript gameOver;
+
     private void Awake()
     {
         currentHealth = initialHealth;
@@ -42,7 +44,15 @@ public class HealthSystem : MonoBehaviour, DamageTaker
         }
         healthText.text = "+ " + currentHealth;
         shieldText.text = "+ " + currentShield;
-        //if(currentHealth <= 0.0f) //gameover
+        
+        if(currentHealth <= 0.0f)
+        {
+            if(gameOver == null)
+                gameOver = GameOverScript.GetInstance();
+            
+            gameOver.GameOver();
+
+        }
     }
 
     public void TakeHealth(float health)
@@ -78,6 +88,12 @@ public class HealthSystem : MonoBehaviour, DamageTaker
     public float getMaxShield()
     {
         return maxShield;
+    }
+
+    public void Revive()
+    {
+        currentHealth = 25.0f;
+        healthText.text = "+ " + currentHealth;
     }
 
 }

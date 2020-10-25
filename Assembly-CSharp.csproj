@@ -85,6 +85,7 @@
      <Compile Include="Assets\FreeAssets\DreamForestTree\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
      <Compile Include="Assets\FreeAssets\DreamForestTree\PostProcessing\Runtime\Models\ChromaticAberrationModel.cs" />
      <Compile Include="Assets\FreeAssets\DreamForestTree\Script\FreeCam.cs" />
+     <Compile Include="Assets\GameOverScript.cs" />
      <Compile Include="Assets\Scripts\ScriptableObjects\WeaponStats.cs" />
      <Compile Include="Assets\FreeAssets\DreamForestTree\PostProcessing\Runtime\Components\VignetteComponent.cs" />
      <Compile Include="Assets\FreeAssets\DreamForestTree\PostProcessing\Runtime\PostProcessingComponent.cs" />
@@ -124,7 +125,7 @@
      <Compile Include="Assets\Drone_eye_damage.cs" />
      <Compile Include="Assets\FreeAssets\DreamForestTree\PostProcessing\Runtime\Models\AmbientOcclusionModel.cs" />
      <Compile Include="Assets\Drone_Health.cs" />
-     <Compile Include="Assets\GameOverScript.cs" />
+     <Compile Include="Assets\Ending.cs" />
      <None Include="Assets\Samples\Terrain Tools\0.1.0-preview\Terrain Assets\ThirdPartyNotices.txt" />
      <None Include="Assets\FreeAssets\DreamForestTree\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
      <None Include="Assets\FreeAssets\DreamForestTree\PostProcessing\Resources\Shaders\GrainGen.shader" />
