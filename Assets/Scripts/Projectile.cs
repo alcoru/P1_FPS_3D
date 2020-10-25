@@ -7,6 +7,8 @@ public class Projectile : MonoBehaviour
     [SerializeField]
     private float speed = 10f;
     [SerializeField]
+    private float damage = 20f;
+    [SerializeField]
     private GameObject explosion;
     private Rigidbody rb;
     
@@ -25,6 +27,10 @@ public class Projectile : MonoBehaviour
     {
         if (other.tag != "Enemy")
         {
+            if (other.gameObject.TryGetComponent<DamageTaker>(out DamageTaker damageTaker))
+            {
+                damageTaker.TakeDamage(damage);
+            }
             DestroyProjectile();
         }
     }

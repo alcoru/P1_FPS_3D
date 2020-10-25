@@ -29,7 +29,7 @@ public class AudioManager : MonoBehaviour
         switch (clip)
         {   
             case "shoot":
-                audioSrc.PlayOneShot(shoot, 0.7f);
+                audioSrc.PlayOneShot(shoot, 0.5f);
                 break;
             case "item":
                 audioSrc.PlayOneShot(item, 1.0f);

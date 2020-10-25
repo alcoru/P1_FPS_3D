@@ -9812,3 +9812,12 @@ Library/Style.catalog
 Library/TerrainTools/PaintTexture
 Library/TerrainTools/SetHeight
 Library/UIElements/EditorWindows/UnityEditor.PackageManager.UI.PackageManagerWindow.pref
+Assembly-CSharp.csproj
+Assembly-CSharp-Editor.csproj
+.vs/P1_FPS_3D/v15/Server/sqlite3/storage.ide-wal
+.vs/P1_FPS_3D/v15/Server/sqlite3/storage.ide-shm
+.vs/P1_FPS_3D/v15/Server/sqlite3/storage.ide
+.vs/P1_FPS_3D/v15/Server/sqlite3/db.lock
+.vs/P1_FPS_3D/v15/.suo
+Assembly-CSharp.csproj
+Assembly-CSharp-Editor.csproj
