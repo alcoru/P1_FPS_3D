@@ -49,6 +49,7 @@
      <Compile Include="Assets\FreeAssets\DreamForestTree\Script\ScrollUVWater.cs" />
      <Compile Include="Assets\FreeAssets\EffectExamples\Shared\Scripts\ParticleMenu.cs" />
      <Compile Include="Assets\FreeAssets\DreamForestTree\PostProcessing\Runtime\PostProcessingBehaviour.cs" />
+     <Compile Include="Assets\Scripts\FirstDoor.cs" />
      <Compile Include="Assets\FreeAssets\DreamForestTree\PostProcessing\Runtime\Models\DitheringModel.cs" />
      <Compile Include="Assets\FreeAssets\DreamForestTree\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
      <Compile Include="Assets\Scripts\GameOverCollider.cs" />
@@ -61,6 +62,7 @@
      <Compile Include="Assets\Scripts\PlayerShoot.cs" />
      <Compile Include="Assets\FreeAssets\EffectExamples\Shared\Scripts\DecalDestroyer.cs" />
      <Compile Include="Assets\FreeAssets\DreamForestTree\PostProcessing\Runtime\Models\BuiltinDebugViewsModel.cs" />
+     <Compile Include="Assets\Scripts\ChangeScene.cs" />
      <Compile Include="Assets\Scripts\HealthSystem.cs" />
      <Compile Include="Assets\FreeAssets\DreamForestTree\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
      <Compile Include="Assets\FreeAssets\DreamForestTree\PostProcessing\Runtime\PostProcessingContext.cs" />
@@ -84,6 +86,7 @@
      <Compile Include="Assets\FreeAssets\DreamForestTree\PostProcessing\Runtime\Components\TaaComponent.cs" />
      <Compile Include="Assets\FreeAssets\DreamForestTree\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
      <Compile Include="Assets\FreeAssets\DreamForestTree\PostProcessing\Runtime\Models\ChromaticAberrationModel.cs" />
+     <Compile Include="Assets\Ending.cs" />
      <Compile Include="Assets\FreeAssets\DreamForestTree\Script\FreeCam.cs" />
      <Compile Include="Assets\GameOverScript.cs" />
      <Compile Include="Assets\Scripts\ScriptableObjects\WeaponStats.cs" />
@@ -96,6 +99,7 @@
      <Compile Include="Assets\Scripts\AutomaticDoor.cs" />
      <Compile Include="Assets\FreeAssets\DreamForestTree\PostProcessing\Runtime\Models\FogModel.cs" />
      <Compile Include="Assets\Scripts\Items\AmmoItem.cs" />
+     <Compile Include="Assets\EndScript.cs" />
      <Compile Include="Assets\Recharge.cs" />
      <Compile Include="Assets\FreeAssets\DreamForestTree\PostProcessing\Runtime\Models\VignetteModel.cs" />
      <Compile Include="Assets\FreeAssets\EffectExamples\TutorialInfo\Scripts\Readme.cs" />
@@ -124,8 +128,8 @@
      <Compile Include="Assets\FreeAssets\DreamForestTree\PostProcessing\Runtime\Components\UserLutComponent.cs" />
      <Compile Include="Assets\Drone_eye_damage.cs" />
      <Compile Include="Assets\FreeAssets\DreamForestTree\PostProcessing\Runtime\Models\AmbientOcclusionModel.cs" />
+     <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
      <Compile Include="Assets\Drone_Health.cs" />
-     <Compile Include="Assets\Ending.cs" />
      <None Include="Assets\Samples\Terrain Tools\0.1.0-preview\Terrain Assets\ThirdPartyNotices.txt" />
      <None Include="Assets\FreeAssets\DreamForestTree\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
      <None Include="Assets\FreeAssets\DreamForestTree\PostProcessing\Resources\Shaders\GrainGen.shader" />
