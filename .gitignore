@@ -5,7 +5,7 @@
 .vs/P1_FPS/v15/Server/sqlite3/storage.ide
 .vs/P1_FPS/v15/Server/sqlite3/storage.ide-shm
 .vs/P1_FPS/v15/Server/sqlite3/storage.ide-wal
-Library/AnnotationManager
+Library/*
 Library/APIUpdater/project-dependencies.graph
 Library/ArtifactDB
 Library/ArtifactDB-lock
